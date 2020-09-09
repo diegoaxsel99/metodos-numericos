@@ -1,0 +1,19 @@
+x=3;
+y=2;
+m=[1, 8, 4];
+n=[2, 7, 1];
+A=[2 2 -7; 1 -2 5; 4 6 3];
+B=[1 2 4; 6 5 2; 5 6 8];
+
+suma = x+y;
+mul = x*y;
+ope= x-3*y;
+suma1 = m+n;
+resta= m-n;
+multi1=dot(m,n);
+multi2=cross(m,n);
+norm=norm(m);
+dete=det(A);
+mult=A.*B;
+suma2=A+B;
+ope2=3.*A-(2.*B);
